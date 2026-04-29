@@ -19,14 +19,20 @@ stormstat.plot_wind_rose(df["wind_speed"], df["wind_dir"])
 
 ## API
 
-**load_station_csv(filepath, ...)** — Loads a weather CSV into a clean DataFrame with a DatetimeIndex. Accepts any column names.
+# load_station_csv()
+Loads a weather CSV into a DataFrame with a DatetimeIndex.
 
-**monthly_summary(df, variable)** — Returns monthly mean, max, min, std, and count for any variable.
+# monthly_summary()
+ Returns monthly mean, max, min, std, and count.
 
-**heat_index(temp_c, relative_humidity)** — Computes NOAA heat index from temperature and humidity. Accepts scalars or arrays.
+# heat_index()
+Computes NOAA heat index from temperature and humidity. Accepts scalars or arrays.
 
-**wind_stats(wind_speed, wind_dir)** — Returns mean, max, percentiles, calm percentage, and dominant wind direction.
+# wind_stats()
+Returns mean, max, percentiles, calm and dominant wind direction.
 
-**plot_temperature(df, ...)** — Plots a shaded daily max/mean/min temperature band time series.
+# plot_temperature()
+Creates a daily max/mean/min temperature band time series.
 
-**plot_wind_rose(wind_speed, wind_dir, ...)** — Draws a 16-sector polar wind rose with speed bins.
+# plot_wind_rose()
+Creates a wind rose band chart.
