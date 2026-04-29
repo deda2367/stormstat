@@ -84,7 +84,7 @@ def plot_wind_rose(wind_speed, wind_dir, bins=None, title="Wind Rose",
 
    Errors:
     ValueError
-        If wind_speed and wind_dir have different lengths, or all values are NaN.
+        If wind_speed and wind_dir have different lengths.
     """
     spd = np.asarray(wind_speed, dtype=float)
     dirs = np.asarray(wind_dir, dtype=float)
@@ -96,7 +96,7 @@ def plot_wind_rose(wind_speed, wind_dir, bins=None, title="Wind Rose",
     spd, dirs = spd[mask], dirs[mask]
 
     if len(spd) == 0:
-        raise ValueError("No valid observations after dropping NaN values.")
+        raise ValueError("No valid observations.")
 
     if bins is None:
         bins = [0, 2, 4, 6, 9, 100]
