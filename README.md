@@ -4,27 +4,27 @@ Surface weather station data and visualization package for atmospheric science. 
 
 ## Installation
 
-pip install -e .
+- pip install -e .
 
 or 
 
-git clone https://github.com/deda2367/stormstat.git
-python -m install -e .
-cd stormstat
+- git clone https://github.com/deda2367/stormstat.git
+- python -m install -e .
+- cd stormstat
 
 
 ## Quick Start
 
 Run this command:
 
-python examples/quickstart.py
+- python examples/quickstart.py
 
 This will generate:
-    -Monthly temperature summary
-    -Heat Index examples
-    -Wind statistics
-    -temperature_range.png
-    -wind_rose.png
+- Monthly temperature summary
+- Heat Index examples
+- Wind statistics
+- temperature_range.png
+- wind_rose.png
 
 ## API
 
