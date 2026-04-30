@@ -15,14 +15,16 @@ cd stormstat
 
 ## Quick Start
 
-import stormstat
+Run this command:
 
-df = stormstat.load_station_csv("data/sample_data.csv", wind_speed_col="wind_speed", wind_dir_col="wind_dir")
+python examples/quickstart.py
 
-summary = stormstat.monthly_summary(df, variable="temp_c")
-print(summary)
-
-stormstat.plot_wind_rose(df["wind_speed"], df["wind_dir"])
+This will generate:
+    -Monthly temperature summary
+    -Heat Index examples
+    -Wind statistics
+    -temperature_range.png
+    -wind_rose.png
 
 ## API
 
