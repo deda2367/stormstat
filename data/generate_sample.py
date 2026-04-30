@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import pathlib
 
-rng = np.random.default_rng(2024)
+rng = np.random.default_rng(2023)
 dates = pd.date_range("2023-01-01", "2023-12-31 23:00", freq="h")
 n = len(dates)
 doy = dates.day_of_year.to_numpy()

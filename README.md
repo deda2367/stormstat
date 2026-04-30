@@ -1,10 +1,17 @@
 # stormstat
 
-Surface weather station data and visualization package for atmospheric science.
+Surface weather station data and visualization package for atmospheric science. This allows scientists to take CSV files to organized statistics and plots quickly.
 
 ## Installation
 
-pip instal -e
+pip install -e .
+
+or 
+
+git clone https://github.com/deda2367/stormstat.git
+python -m install -e .
+cd stormstat
+
 
 ## Quick Start
 
@@ -36,3 +43,14 @@ Creates a daily max/mean/min temperature band time series.
 
 # plot_wind_rose()
 Creates a wind rose band chart.
+
+
+## Data Source
+Sample data is generated to act as mid-latitude surface observations based on Boulder, CO. Real station data can be downloaded from NOAA Climate Data Online. (https://www.ncdc.noaa.gov/cdo-web/)
+
+##License
+MIT -see LICENSE
+
+## Author
+Demi Davoll deda2367@colorado.edu
+ATOC 4815/5815, University of Colorado-Boulder, Spring 2026
