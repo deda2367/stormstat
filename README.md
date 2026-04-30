@@ -19,8 +19,8 @@ This will generate:
 - Monthly temperature summary
 - Heat Index examples
 - Wind statistics
-- temperature_range.png
-- wind_rose.png
+- temperature_range.png (saved to /examples)
+- wind_rose.png (saved to /examples)
 
 ## API
 
