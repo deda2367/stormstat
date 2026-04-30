@@ -9,8 +9,8 @@ Surface weather station data and visualization package for atmospheric science. 
 or 
 
 - git clone https://github.com/deda2367/stormstat.git
-- python -m install -e .
 - cd stormstat
+- pip install -e .
 
 
 ## Quick Start
